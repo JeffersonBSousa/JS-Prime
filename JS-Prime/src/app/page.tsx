@@ -1,9 +1,18 @@
-import Footer from "../components/footer";
-import Navbar from "../components/navbar";
-import Link from "next/link";
+import Footer from "./components/footer";
+import Navbar from "./components/navbar";
 import Image from "next/image";
+import Link from "next/link";
+import Reviews from "./components/reviews";
+import Servicos from "./components/servicos";
+import LandingPage from "./landing-page";
 
-export default function Contato() {
+export default function Home() {
+  return <LandingPage />;
+}
+
+void LegacyHome;
+
+function LegacyHome() {
   return (
     <div>
       <div className="bg-blue-950">
@@ -47,7 +56,7 @@ export default function Contato() {
                 </span>
               </Link>
               <Link
-                href="mailto:scfogoes@gmail.com"
+                href="#contato"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex gap-1"
@@ -60,7 +69,7 @@ export default function Contato() {
                   alt="Email"
                 />
                 <span className="font-semibold lg:text-2xl">
-                  scfogoes@gmail.com
+                  [E-MAIL]
                 </span>
               </Link>
               <Link
@@ -76,7 +85,7 @@ export default function Contato() {
                   loading="lazy"
                   alt="Instagram"
                 />
-                <span className="font-semibold lg:text-2xl">@scfogões</span>
+                <span className="font-semibold lg:text-2xl">Instagram JS Prime</span>
               </Link>
             </div>
             <div className="lg:w-2/5 xl:w-1/3 flex flex-col gap-5 bg-black bg-opacity-70 p-6 rounded-lg lg:text-2xl">
@@ -111,6 +120,8 @@ export default function Contato() {
         </div>
       </div>
       <div className="relative z-10">
+        <Servicos />
+        <Reviews />
         <Footer />
       </div>
     </div>

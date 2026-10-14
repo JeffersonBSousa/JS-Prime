@@ -1,11 +1,9 @@
-import Footer from "./components/footer";
-import Navbar from "./components/navbar";
-import Image from "next/image";
+import Footer from "../components/footer";
+import Navbar from "../components/navbar";
 import Link from "next/link";
-import Reviews from "./components/reviews";
-import Servicos from "./components/servicos";
+import Image from "next/image";
 
-export default function Home() {
+export default function Contato() {
   return (
     <div>
       <div className="bg-blue-950">
@@ -15,7 +13,7 @@ export default function Home() {
             <div className="lg:w-2/5 xl:w-1/3 flex flex-col gap-5 bg-black bg-opacity-70 p-6 rounded-lg">
               <h3 className="font-bold lg:text-3xl">ENTRE EM CONTATO</h3>
               <Link
-                href="tel:+558331427333"
+                href="#contato"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex gap-1"
@@ -32,7 +30,7 @@ export default function Home() {
                 </span>
               </Link>
               <Link
-                href="https://api.whatsapp.com/send/?phone=5583988005001&text&type=phone_number&app_absent=0"
+                href="https://wa.me/55[DDD][NUMERO]?text=Ol%C3%A1!%20Gostaria%20de%20pedir%20um%20or%C3%A7amento."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex gap-1"
@@ -49,7 +47,7 @@ export default function Home() {
                 </span>
               </Link>
               <Link
-                href="mailto:scfogoes@gmail.com"
+                href="mailto:[E-MAIL]"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex gap-1"
@@ -62,7 +60,7 @@ export default function Home() {
                   alt="Email"
                 />
                 <span className="font-semibold lg:text-2xl">
-                  scfogoes@gmail.com
+                  [E-MAIL]
                 </span>
               </Link>
               <Link
@@ -78,7 +76,7 @@ export default function Home() {
                   loading="lazy"
                   alt="Instagram"
                 />
-                <span className="font-semibold lg:text-2xl">@scfogões</span>
+                <span className="font-semibold lg:text-2xl">Instagram JS Prime</span>
               </Link>
             </div>
             <div className="lg:w-2/5 xl:w-1/3 flex flex-col gap-5 bg-black bg-opacity-70 p-6 rounded-lg lg:text-2xl">
@@ -113,8 +111,6 @@ export default function Home() {
         </div>
       </div>
       <div className="relative z-10">
-        <Servicos />
-        <Reviews />
         <Footer />
       </div>
     </div>

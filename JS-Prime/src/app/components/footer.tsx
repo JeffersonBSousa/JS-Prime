@@ -37,7 +37,7 @@ export default function Footer() {
                     <div className="lg:w-1/3 flex flex-col gap-2">
                         <h3 className="font-bold">ENTRE EM CONTATO</h3>
                         <Link
-                            href="tel:+558331427333"
+                            href="#contato"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="flex gap-1"
@@ -52,7 +52,7 @@ export default function Footer() {
                             <span className="font-semibold">(83) 3142-7333</span>
                         </Link>
                         <Link
-                            href="https://api.whatsapp.com/send/?phone=5583988005001&text&type=phone_number&app_absent=0"
+                            href="https://wa.me/55[DDD][NUMERO]?text=Ol%C3%A1!%20Gostaria%20de%20pedir%20um%20or%C3%A7amento."
                             target="_blank"
                             rel="noopener noreferrer"
                             className="flex gap-1"
@@ -67,7 +67,7 @@ export default function Footer() {
                             <span className="font-semibold">(83) 98800-5001</span>
                         </Link>
                         <Link
-                            href="mailto:scfogoes@gmail.com"
+                            href="mailto:[E-MAIL]"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="flex gap-1"
@@ -79,10 +79,10 @@ export default function Footer() {
                                 loading="lazy"
                                 alt="Email"
                             />
-                            <span className="font-semibold">scfogoes@gmail.com</span>
+                            <span className="font-semibold">[E-MAIL]</span>
                         </Link>
                         <Link
-                            href="https://www.instagram.com/scfogao/"
+                            href="https://www.instagram.com/[USUARIO]"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="flex gap-1"
@@ -94,13 +94,13 @@ export default function Footer() {
                                 loading="lazy"
                                 alt="Instagram"
                             />
-                            <span className="font-semibold">@scfogões</span>
+                            <span className="font-semibold">Instagram JS Prime</span>
                         </Link>
                     </div>
                 </div>
                 <div className="flex justify-center py-14">
                     <p>
-                        © 1969 SC Fogões | Todos os direitos reservados
+                        © 2026 JS Prime Manutenção e Instalação. Todos os direitos reservados.
                     </p>
                 </div>
             </div>

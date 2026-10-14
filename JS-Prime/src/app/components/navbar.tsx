@@ -8,8 +8,8 @@ export default function Navbar() {
                 <Link href="/">
                     <Image
                         priority
-                        src="/img/ScFogoes.png"
-                        alt="Sc fogoes"
+                        src="/img/JSPrime.svg"
+                        alt="JS Prime"
                         width={240}
                         height={200}
                         className="cursor-pointer w-24 sm:w-60"

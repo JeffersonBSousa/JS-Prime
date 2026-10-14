@@ -20,7 +20,7 @@ const reviews: Review[] = [
   {
     name: "José da Penha Soares de Melo",
     rating: 5,
-    text: "Gostaria de parabenizar a empresa SC Fogões pelo seu funcionário, o técnico(Sr.Cerlilson) pelo trabalho executado no fogão em minha residência. O trabalho foi bem executado. Ficamos satisfeito.",
+    text: "Gostaria de parabenizar a equipe pelo trabalho executado no fogão em minha residência. O serviço foi bem feito e ficamos satisfeitos.",
   },
   {
     name: "Mario Atur Abreu",
@@ -55,7 +55,7 @@ const reviews: Review[] = [
   {
     name: "Paula Almeida",
     rating: 5,
-    text: "Atendimento de qualidade. O técnico Cícero. Muito honesto e competente. Estão de parabéns. Super indico a SC fogões. Honestidade é uma raridade nos dias de hoje. E eu encontrei na SC",
+    text: "Atendimento de qualidade. O técnico foi muito honesto e competente. Estão de parabéns. Honestidade é uma raridade nos dias de hoje.",
   },
   {
     name: "Marines Passos Barboza",
